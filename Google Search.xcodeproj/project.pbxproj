@@ -11,6 +11,7 @@
 		A260947B25E7E53400F8135B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A260947A25E7E53400F8135B /* ContentView.swift */; };
 		A260947D25E7E53600F8135B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A260947C25E7E53600F8135B /* Assets.xcassets */; };
 		A260948025E7E53600F8135B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A260947F25E7E53600F8135B /* Preview Assets.xcassets */; };
+		A260948925E7E5C600F8135B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A260948825E7E5C600F8135B /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A260947C25E7E53600F8135B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A260947F25E7E53600F8135B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A260948125E7E53600F8135B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A260948825E7E5C600F8135B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				A260947825E7E53400F8135B /* Google_SearchApp.swift */,
 				A260947A25E7E53400F8135B /* ContentView.swift */,
 				A260947C25E7E53600F8135B /* Assets.xcassets */,
+				A260948825E7E5C600F8135B /* SwiftyJSON.swift */,
 				A260948125E7E53600F8135B /* Info.plist */,
 				A260947E25E7E53600F8135B /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A260948925E7E5C600F8135B /* SwiftyJSON.swift in Sources */,
 				A260947B25E7E53400F8135B /* ContentView.swift in Sources */,
 				A260947925E7E53400F8135B /* Google_SearchApp.swift in Sources */,
 			);
