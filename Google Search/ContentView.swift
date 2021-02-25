@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var entries = [Entry]()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-            .onAppear(perform: {
-                queryAPI()
-            })
+        NavigationView {
+            List(entries) { entry in
+                Link(destination: URL(string: entry.link)!, label: {
+                    Text(entry.title)
+                })
+            }
+            .navigationTitle("Corn Dogs")
+        }
+        .onAppear(perform: {
+            queryAPI()
+        })
     }
     
     func queryAPI() {
@@ -27,7 +34,7 @@ struct ContentView: View {
                     let title = item["title"].stringValue
                     let link = item["link"].stringValue
                     let entry = Entry(title: title, link: link)
-                    print(entry)
+                    entries.append(entry)
                 }
             }
         }
